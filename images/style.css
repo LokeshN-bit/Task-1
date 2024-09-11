@@ -32,7 +32,7 @@
    align-items: center;
    width: 1134;
    top: 0;
-   padding: 36px 0;
+   padding: 20px 10px 10px 20px;
    z-index: 100;
    transition: all 500ms ease;
 }
@@ -40,7 +40,7 @@
 nav ul{
    display: flex;
    align-items: center;
-   gap: 65%;
+   gap: 40%;
    padding-bottom: 10%;
    list-style: none;
    margin: 0;
@@ -638,12 +638,195 @@ bottom: 430px;
    margin-top: 15px;
 
 }
-.location{
+.Location{
    color: #444444;
    font-size: 12px;
-
 }
 
+.latest_blogs.content h2{
+   font-family: "volkhov",sans-serif;
+   font-weight: bold;
+   align-items: center;
+   font-size: 45px;
+   line-height: 125%;
+   padding-top: 2%;
+   margin-bottom: 0;
+   padding-left: 50%;
+   color: #222222;
+
+}
+.latest_blog.content h2 span{
+   color: #FA7436;
+}
+.cards{
+   display: flex;
+   gap: 40px;
+   flex-wrap: wrap;
+}
+.latest_blog.cards{
+
+ padding: 5%;margin-left: 5%;
+}
+.latest_blog.cards.card1{
+   background-color: #FFFFFF;
+   border-radius: 10px;
+   overflow: hidden;
+   width: 220px;
+   position: relative;
+   transition: transform 0.3s ease;
+}
+.image-container{
+   position: relative;
+   width: 100%;
+   height: 50%;
+   overflow: hidden;
+}
+.image-container img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.latest_blog.slider{
+   padding-top: 3%;
+   padding-left: 46%;
+   padding-bottom: 5%;
+}
+.footer-container.subscribe section{
+   font-family:"poppins",sans-serif ;
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 200%;
+   border-radius: 8px;
+   padding: 8px,0px,6px,14px;
+   border: none;
+   width: 50%;
+   top: 70%;
+   margin-top: 40%;color: #0a0909;
+}
+footer.form.submit-btn{
+   position: absolute;
+   right: 290px;
+   top: 78%;
+   background:darkblue;
+   border-radius: 8px;
+   padding: 8px,32px;
+   border: 0;
+   font-family:"poppins",sans-serif;
+   font-weight: normal;
+   font-size: 16px;
+   background-color: #f59366;
+   color: #FFFFFF;
+   cursor: pointer;
+}
+
+footer.footer-container.subscribe section.bg {
+   background-image: var(--bg-color);
+   background: no-repeat center center;
+   background-size: cover;
+   position: absolute;
+   top: 15px;
+   left: 989px;
+   width: 100px;
+   height: 100px;
+}
+footer.footer-container.subscribe section .bg.bg::after{
+   background-image: url("assests/first logo.png");
+   position: absolute;
+   color: #FFFFFF;
+   }
+   .subscribe-section h2{
+      margin-bottom: 100px;
+      padding-left: 0%;
+      font-family: "volkhov",sans-serif;
+      font-size: 40px;
+
+   }
+   .subscribe-section.form{
+      width: 674px;
+      margin: 0;
+   }
+   .email-input-container{
+      position:relative;
+      margin-bottom: 20px;
+   }
+   .email-input-container input{
+      height: 68px;
+      width: 300px;
+      padding: 10px 10px 10px 40px;
+      font-size: 16px;
+      box-sizing: border-box;
+      border: 1px;
+      border-radius: 10px;
+      }
+      .email-input-container::before{
+         content: url("assests/Element (2).png");
+         position: absolute;
+         left: 26%;
+         top: 24%;
+      }
+      .submit-btn{
+      
+         padding: 132px 50px;
+         font-size: 25px;
+         border-radius: 0 30px 30px 0;
+         cursor: pointer;
+         transition: all 0.3 ease;
+      }
+      .trabook{
+         font-family:"volkhov",sans-serif;
+         font-size: 20px;
+         font-weight: bold;
+         color: var(--black-color);
+      }
+      .links-container div{
+         margin: 10px;
+         min-width: 150px;
+
+      }
+      .links-container h3{
+         color: #222222;
+         margin-bottom: 15px;
+      }
+            .links-container div p {
+               padding-left: 10px;
+               width: 300px;
+               font-size: 14px;
+               color: #FA7436;
+            }
+            .links-container a{
+               color: #666666;
+               display: block;
+               text-decoration: none;
+               margin-bottom: 10px;
+               font-size: 14px;
+            }
+            .links-containers.social-icons{
+               display: flex;
+               gap: 5px;
+
+            }
+            .links-container div .social-icons a{
+               display: block;
+            }
+            .links-containers div .social-icons img{
+               display: block;
+               max-width: 100%;
+               height: auto;
+
+            }
+            .copyright{
+               display: flex;
+               justify-content: space-between;
+            }
+            .copyright p{
+               margin-top: 20px;
+               font-size: medium;
+               color: #444444;
+            }
+            .copyright p a{
+               color: var(--lightgrey-color);
+               text-decoration: none;
+            }
 
 
 
