@@ -117,7 +117,7 @@ nav ul li a{
    color: #666666;
    
 }
-.left.conteent.d-btn{
+.left.content.btn{
    padding: 16px 50px;
    border: 2px solid #FA7436;
    border-radius: 4px;
@@ -246,9 +246,29 @@ color: #999999;
    outline: none;
    border-color: #FD8D3A;
 }
-.search-item.explore button{
+.explore-button{
+   background-color: #FA7436;
+
+}
+.search.explore button{
    background-color: #FA7436;
 }
+.wrapper.need{
+   background-color: #FFFFFF;
+   height: 85vh;
+
+}
+.need.top.content{
+   padding-left: 55%;
+}
+section.content.h1{
+   font-family: "poppins",sans-serif;
+   font-size: 45px;
+   font-weight: bold;
+   width: 600px;
+   
+}
+
 
 
 
